@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -63,12 +64,16 @@ a {
     font-size: 16px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.103);
-    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
     border-radius: 5px;         
     cursor: pointer;    
     width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
+
 .Destino {
     font-family: sans-serif;
     max-width: none;        
